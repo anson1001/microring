@@ -1,0 +1,88 @@
+date,device,sub-device,port,folder,trigger path,channel path,trigger,channel,short form,name,EO (ring 1),EO (ring 2),temperature,TEC (V),TEC (I),TO (V),TO (I),radius,waveguide width,coupling width,coupling gap,coupling angles,Ql,Qi,Qc,ng,loss dB/cm,a,t,power,comments
+4_14_2026,single_bus,single_bus,single_bus,./vernier_4_14_2026/,,,4,5,,,,,,,,,,,,,,,,,,,,,,50mV * 9
+4_14_2026,V5,single_ring_1,through,./vernier_4_14_2026/,TEK00008,TEK00009,8,9,R2627W800C300G300R0,V5_1st_single_ring_through,0,,,,,,,26um,0.8um,0.3um,0.3um,,,,,,,,,100mV * 10
+4_14_2026,V5,single_ring_1,drop,./vernier_4_14_2026/,TEK00010,TEK00011,10,11,,V5_1st_single_ring_drop,0,,,,,,,,,,,,,,,,,,,20mV * 5
+4_14_2026,V5,single_ring_2,through,./vernier_4_14_2026/,TEK00012,TEK00013,12,13,,V5_2nd_single_ring_through,0,,,,,,,27um,0.8um,0.3um,0.3um
+4_14_2026,V5,single_ring_1,drop,./vernier_4_14_2026/,TEK00014,TEK00015,14,15,,V5_2nd_single_ring_drop,0,,,,,,
+4_14_2026,V6,single_ring_1,through,./vernier_4_14_2026/,TEK00022,TEK00023,22,23,R2627W600C300G300R0,V6_1st_single_ring_through,0,,,,,,,26um,0.6um,0.3um,0.3um,,5907,11140,27000,,97.43,0.834,0.925
+4_14_2026,V6,single_ring_1,drop,./vernier_4_14_2026/,TEK00024,TEK00025,24,25,,V6_1st_single_ring_drop,0,,,,,,
+4_14_2026,V6,single_ring_2,through,./vernier_4_14_2026/,TEK00026,TEK00027,26,27,,V6_2nd_single_ring_through,0,,,,,,,27um,0.6um,0.3um,0.3um
+4_14_2026,V6,single_ring_2,drop,./vernier_4_14_2026/,TEK00028,TEK00029,28,29,,V6_2nd_single_ring_drop,0,,,,,,
+4_14_2026,V8,single_ring_1,through,./vernier_4_14_2026/,TEK00030,TEK00031,30,31,R2627W400C400G200R0,V8_1st_single_ring_through,0,,,,,,,26um,400nm,400nm,200nm,,9593,18330,44760,,50.77,0.9092,0.9533,100mV * 5
+4_14_2026,V8,single_ring_1,through,./vernier_4_14_2026/,TEK00032,TEK00033,32,33,,V8_1st_single_ring_through_1V,1,,22,,,,,,,,,,,,,,,,,100mV * 5,looks no shift
+4_14_2026,V8,single_ring_1,through,./vernier_4_14_2026/,TEK00034,TEK00035,34,35,,V8_1st_single_ring_through_1point5V,1.5,,22,,,,,,,,,,,,,,,,,100mV * 4,0.04nm blue shift from 0 V
+4_14_2026,V8,single_ring_1,through,./vernier_4_14_2026/,TEK00036,TEK00037,36,37,,V8_1st_single_ring_through_2V,2,,21.8,,,,,,,,,,,,,,,,,100mV * 4,0.08nm blue shift from 0V
+4_14_2026,V8,single_ring_1,through,./vernier_4_14_2026/,TEK00038,TEK00039,38,39,,V8_1st_single_ring_through_2point5V,2.5,,21.8,,,,,,,,,,,,,,,,,100mV * 4,0.11nm blue shift from 0V
+4_14_2026,V8,single_ring_1,through,./vernier_4_14_2026/,TEK00040,TEK00041,40,41,,V8_1st_single_ring_through_3V,3,,21.9,,,,,,,,,,,,,,,,,100mV * 4,already red shift from 2.5V
+4_14_2026,V8,vernier,through,./vernier_4_14_2026/,TEK00042,TEK00043,42,43,,V8_vernier_through,0,,,,,,,,,,,,,,,,,,,20mV * 10
+4_14_2026,V8,vernier,through,./vernier_4_14_2026/,TEK00044,TEK00045,44,45,,V8_vernier_through_1point5V,1.5,,21.8,,,,,,,,,,,,,,,,,50mV * 8,0.025nm blue shift from 0V
+4_14_2026,V8,vernier,through,./vernier_4_14_2026/,TEK00046,TEK00047,46,47,,V8_vernier_through_2V,2,,21.8,,,,,,,,,,,,,,,,,50mV * 8,0.06nm blue shift from 0V
+4_14_2026,V8,vernier,through,./vernier_4_14_2026/,TEK00048,TEK00049,48,49,,V8_vernier_through_2point5V,2.5,,21.8,,,,,,,,,,,,,,,,,50mV * 8
+4_14_2026,V8,vernier,final_drop,./vernier_4_14_2026/,TEK00050,TEK00051,50,51,,V8_vernier_final_drop_0V,0,,,,,,
+4_14_2026,V8,vernier,final_drop,./vernier_4_14_2026/,TEK00052,TEK00053,52,53,,V8_vernier_final_drop_1point5V,1.5,,,,,,
+4_14_2026,V8,vernier,final_drop,./vernier_4_14_2026/,TEK00054,TEK00055,54,55,,V8_vernier_final_drop_2V,2,,,,,,
+4_14_2026,V8,vernier,final_drop,./vernier_4_14_2026/,TEK00056,TEK00057,56,57,,V8_vernier_final_drop_2point5V,2.5,,,,,,
+4_14_2026,V1,single_ring_1,through,./vernier_4_14_2026/,TEK00058,TEK00059,58,59,R2627W500C500G200R10,V1_1st_single_ring_through,0,,,,,,,26um,500nm,500nm,0.5um,10,24060,51330,106700,,20.85,0.9618,0.9804
+4_14_2026,V1,single_ring_1,through,./vernier_4_14_2026/,TEK00060,TEK00061,60,61,,V1_1st_single_ring_through_1point5V,1.5,,,,,,,,,,,,,,,,,,,,no shift from 0V
+4_14_2026,V1,single_ring_1,through,./vernier_4_14_2026/,TEK00062,TEK00063,62,63,,V1_1st_single_ring_through_2V,2,,,,,,
+4_14_2026,V1,single_ring_1,through,./vernier_4_14_2026/,TEK00064,TEK00065,64,65,,V1_1st_single_ring_through_2point5V,2.5,,,,,,
+4_14_2026,V1,single_ring_1,through,./vernier_4_14_2026/,TEK00066,TEK00067,66,67,,V1_1st_single_ring_through_2point25V,2.25,,,,,,
+4_14_2026,V1,single_ring_1,drop,./vernier_4_14_2026/,TEK00068,TEK00069,68,69,,V1_1st_single_ring_drop_0V,0,,,,,,,,,,,,,,,,,,,20mV * 5
+4_14_2026,V1,vernier,final_drop,./vernier_4_14_2026/,TEK00070,TEK00071,70,71,,V1_vernier_final_drop_0point45V_TO,0.45,,,,,,,,,,,,,,,,,,,,tuned to let single peak highest. side lobe suppresion 0.5
+4_14_2026,V2,single_ring_2,through,./vernier_4_14_2026/,TEK00072,TEK00073,72,73,R2627W500C500G200R15,V2_1st_single_ring_through,0,,,,,,,,500nm,,200nm,15
+4_14_2026,V2,single_ring_2,drop,./vernier_4_14_2026/,TEK00074,TEK00075,74,75,,V2_1st_single_ring_drop,0,,,,,,
+4_14_2026,V2,single_ring_2,drop,./vernier_4_14_2026/,TEK00076,TEK00077,76,77,,V2_1st_single_ring_drop#2,0,,,,,,
+4_14_2026,V2,vernier,final_drop,./vernier_4_14_2026/,TEK00078,TEK00079,78,79,,,0,,,,,,
+4_14_2026,V2,vernier,through,./vernier_4_14_2026/,TEK00082,TEK00083,82,83,,V2_1st_single_ring_through#2,0,,,,,,,,,,,,,,,,,,,input 6dBM
+4_14_2026,V2,vernier,through,./vernier_4_14_2026/,TEK00084,TEK00085,84,85,,V2_1st_single_ring_through#3,0,,,,,,,,,,,,,,,,,,,input 10dBM,one dip measurement. other dips are masked by fp
+4_14_2026,V3,single_ring_1,through,./vernier_4_14_2026/,TEK00086,TEK00087,86,87,R2627W300C300G300R10,V3_1st_single_ring_through,0,,,,,,,,,,,,16720,17820000,123500,,56.2,0.9033,0.9049,,"lots of side peaks,"
+4_14_2026,V9,single_ring_1,through,./vernier_4_14_2026/,TEK00088,TEK00089,88,89,R2627W450C450G150R0,V9_1st_single_ring_through,0,,,,,,,,450nm,450nm,150nm,,12420,23510,67100,,60.92,0.8993,0.9441
+4_14_2026,V10,single_ring_2,through,./vernier_4_14_2026/,TEK00090,TEK00091,90,91,R2627W300C300G300R0,V10_2nd_single_ring_through,0,,,,,,
+4_14_2026,V7,single_ring_1,through,./vernier_4_14_2026/,TEK00092,TEK00093,92,93,R2627W800C300G250R0,V7_1st_single_ring_through,0,,,,,,,,,,,,2612,6690,8810,,137.6,0.7736,0.8207
+4_14_2026,V7,single_ring_2,through,./vernier_4_14_2026/,TEK00094,TEK00095,94,95,,V7_2nd_single_ring_through,0,,,,,,
+4_14_2026,V1,single_ring_2,through,./vernier_4_14_2026/,TEK00096,TEK00097,96,97,,V1_2nd_single_ring_through,0,,,,,,
+4_14_2026,V1,single_ring_1,through,./vernier_4_14_2026/,TEK00058,TEK00059,58,59,R2627W500C500G200R10,V1_1st_single_ring_through,0,,,,,,,26um,500nm,500nm,0.5um,10,24060,51330,106700,,20.85,0.9618,0.9804
+4_14_2026,V3,single_ring_1,through,./vernier_4_14_2026/,TEK00086,TEK00087,86,87,R2627W300C300G300R10,V3_1st_single_ring_through,0,,,,,,,,,,,,16720,17820000,123500,,56.2,0.9033,0.9049,,"lots of side peaks,"
+4_14_2026,V6,single_ring_1,through,./vernier_4_14_2026/,TEK00022,TEK00023,22,23,R2627W600C300G300R0,V6_1st_single_ring_through,0,,,,,,,26um,0.6um,0.3um,0.3um,,5907,11140,27000,,97.43,0.834,0.925
+4_14_2026,V7,single_ring_1,through,./vernier_4_14_2026/,TEK00092,TEK00093,92,93,R2627W800C300G250R0,V7_1st_single_ring_through,0,,,,,,,,,,,,2612,6690,8810,,137.6,0.7736,0.8207
+4_14_2026,V8,single_ring_1,through,./vernier_4_14_2026/,TEK00030,TEK00031,30,31,R2627W400C400G200R0,V8_1st_single_ring_through,0,,,,,,,26um,400nm,400nm,200nm,,9593,18330,44760,,50.77,0.9092,0.9533,100mV * 5
+4_14_2026,V9,single_ring_1,through,./vernier_4_14_2026/,TEK00088,TEK00089,88,89,R2627W450C450G150R0,V9_1st_single_ring_through,0,,,,,,,,450nm,450nm,150nm,,12420,23510,67100,,60.92,0.8993,0.9441
+,,,,,,,,,,,,,,,,,
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00001,TEK00002,1,2,,,,,21.1,0,0,0,0,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00003,TEK00004,3,4,,,,,23,0.14,0.138,0,0,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00005,TEK00006,5,6,,,,,23.9,0.19,0.19,0,0,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00007,TEK00008,7,8,,,,,25.5,0.28,0.27,0,0,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00009,TEK00010,9,10,,,,,27.1,0.37,0.35,0,0,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00011,TEK00012,11,12,,,,,28.7,0.46,0.437,0,0,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00013,TEK00014,13,14,,,,,30.1,0.52,0.499,0,0,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00015,TEK00016,15,16,,,,,0,0,0,1.01,0.087,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00017,TEK00018,17,18,,,,,0,0,0,1.51,0.14,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00019,TEK00020,19,20,,,,,0,0,0,1.7,0.163,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00021,TEK00020,21,22,,,,,0,0,0,1.2,0.13,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00023,TEK00024,23,24,,,,,35.5,0.78,0.734,0,0,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00025,TEK00026,25,26,,,,,41.8,1,0.915,0,0,26um,500nm,500nm,0.5um,10
+23_4_2026,V1,single_ring_1,through,./vernier_4_23_2026_TO/,TEK00027,TEK00028,27,28,,,,,46.8,1.11,1.052,0,0,26um,500nm,500nm,0.5um,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,single_bus,single_bus,single_bus,./16_6_2026_single_rings/,TEK00027,TEK00026,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V10,single_ring_1,through,./16_6_2026_single_rings/,TEK00023,TEK00022,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V10,single_ring_1,drop,./16_6_2026_single_rings/,TEK00025,TEK00024,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V10,single_ring_2,through,./16_6_2026_single_rings/,TEK00029,TEK00028,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V10,single_ring_2,drop,./16_6_2026_single_rings/,TEK00031,TEK00030,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V5,single_ring_1,through,./16_6_2026_single_rings/,TEK00033,TEK00032,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V5,single_ring_1,drop,./16_6_2026_single_rings/,TEK00035,TEK00034,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V5,single_ring_2,through,./16_6_2026_single_rings/,TEK00037,TEK00036,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V5,single_ring_2,drop,./16_6_2026_single_rings/,TEK00039,TEK00038,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V7,single_ring_1,through,./16_6_2026_single_rings/,TEK00043,TEK00042,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V7,single_ring_1,drop,./16_6_2026_single_rings/,TEK00045,TEK00044,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V7,single_ring_2,through,./16_6_2026_single_rings/,TEK00047,TEK00046,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V7,single_ring_2,drop,./16_6_2026_single_rings/,TEK00049,TEK00048,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V8,single_ring_1,through,./16_6_2026_single_rings/,TEK00051,TEK00050,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V8,single_ring_1,drop,./16_6_2026_single_rings/,TEK00053,TEK00052,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V8,single_ring_2,through,./16_6_2026_single_rings/,TEK00055,TEK00054,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,V8,single_ring_2,drop,./16_6_2026_single_rings/,TEK00057,TEK00056,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16_6_2026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
